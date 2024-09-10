@@ -12,6 +12,9 @@ const output = {
     },
     register: (req, res) => {
         res.render("home/register");
+    },
+    blog: (req, res) => {
+        res.render("a1/blog");
     }
 };
 
