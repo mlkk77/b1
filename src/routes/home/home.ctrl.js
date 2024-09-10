@@ -15,6 +15,9 @@ const output = {
     },
     blog: (req, res) => {
         res.render("a1/blog");
+    },
+    about: (req, res) => {
+        res.render("a1/about");
     }
 };
 

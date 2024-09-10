@@ -5,7 +5,8 @@ const router = express.Router();
 
 const ctrl = require("./home.ctrl");
 
-router.get("/", ctrl.output.hello);
+router.get("/", ctrl.output.blog);
+router.get("/about", ctrl.output.about);
 router.get("/login", ctrl.output.login);
 router.get("/register", ctrl.output.register);
 router.get("/blog", ctrl.output.blog);
