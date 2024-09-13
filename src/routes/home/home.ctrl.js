@@ -14,7 +14,7 @@ const output = {
         res.render("home/register");
     },
     blog: (req, res) => {
-        res.render("a1/blog");
+        res.render("a1/blog",{data :'aaa'});
     },
     about: (req, res) => {
         res.render("a1/about");
